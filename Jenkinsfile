@@ -1,7 +1,7 @@
 pipeline {
     agent any
     stages{
-        stage('Deploy to eks'){
+        stage('Deploy to eks') {
             steps{
                 try{
                     sh "kubectl apply -f /home/ec2-user/nginx-eks/nginx-deployment.yaml"
