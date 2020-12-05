@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    enviornment{
+    environment{
         PATH = "$PATH:/home/ec2-user/.local/bin:/home/ec2-user/bin"
     }
     stages{
